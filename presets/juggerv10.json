@@ -1,11 +1,11 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "Juggernaut_X_RunDiffusion.safetensors",
     "default_refiner": "",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.25
+            "dalle-3-xl-lora-v2.safetensors",
+            1.0
         ],
         [
             "None",
@@ -24,7 +24,7 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 5.0,
+    "default_cfg_scale": 7.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -37,10 +37,11 @@
     ],
     "default_aspect_ratio": "1344*768",
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://civitai.com/api/download/models/288982?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "Juggernaut_X_RunDiffusion.safetensors": "https://civitai.com/api/download/models/456194"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+        "dalle-3-xl-lora-v2.safetensors":"https://huggingface.co/ehristoforu/dalle-3-xl-v2/resolve/main/dalle-3-xl-lora-v2.safetensors?download=true"
     }
 }
