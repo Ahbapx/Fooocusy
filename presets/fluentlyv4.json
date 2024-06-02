@@ -8,12 +8,12 @@
             0.7
         ],
         [
-            "None",
-            1.0
+            "ral-3dwvz-sdxl.safetensors",
+            0.5
         ],
         [
-            "None",
-            1.0
+            "ral-bling-sdxl.safetensors",
+            0
         ],
         [
             "None",
@@ -40,6 +40,9 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "dalle-3-xl-lora-v2.safetensors":"https://huggingface.co/ehristoforu/dalle-3-xl-v2/resolve/main/dalle-3-xl-lora-v2.safetensors?download=true"
+        "dalle-3-xl-lora-v2.safetensors":"https://huggingface.co/ehristoforu/dalle-3-xl-v2/resolve/main/dalle-3-xl-lora-v2.safetensors?download=true",
+        "ral-3dwvz-sdxl.safetensors":"https://civitai.com/api/download/models/309610",
+        "ral-bling-sdxl.safetensors":"https://civitai.com/api/download/models/312625"
+        
     }
 }
