@@ -116,19 +116,19 @@ class OutputFormat(Enum):
 
 
 class Steps(IntEnum):
-    QUALITY = 60
-    SPEED = 30
+    QUALITY = 35
+    SPEED = 25
     EXTREME_SPEED = 8
-    LIGHTNING = 4
-    HYPER_SD = 4
+    LIGHTNING = 8
+    HYPER_SD = 8
 
 
 class StepsUOV(IntEnum):
-    QUALITY = 36
-    SPEED = 18
+    QUALITY = 28
+    SPEED = 14
     EXTREME_SPEED = 8
-    LIGHTNING = 4
-    HYPER_SD = 4
+    LIGHTNING = 6
+    HYPER_SD = 6
 
 
 class Performance(Enum):
