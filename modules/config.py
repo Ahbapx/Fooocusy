@@ -463,7 +463,7 @@ default_black_out_nsfw = get_config_item_or_set_default(
 )
 default_save_metadata_to_images = get_config_item_or_set_default(
     key='default_save_metadata_to_images',
-    default_value=False,
+    default_value=True,
     validator=lambda x: isinstance(x, bool)
 )
 default_metadata_scheme = get_config_item_or_set_default(
