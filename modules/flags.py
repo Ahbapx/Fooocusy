@@ -119,16 +119,16 @@ class Steps(IntEnum):
     QUALITY = 35
     SPEED = 25
     EXTREME_SPEED = 8
-    LIGHTNING = 8
-    HYPER_SD = 8
+    LIGHTNING = 4
+    HYPER_SD = 4
 
 
 class StepsUOV(IntEnum):
-    QUALITY = 28
+    QUALITY = 30
     SPEED = 14
     EXTREME_SPEED = 8
-    LIGHTNING = 6
-    HYPER_SD = 6
+    LIGHTNING = 4
+    HYPER_SD = 4
 
 
 class Performance(Enum):
