@@ -116,8 +116,8 @@ class OutputFormat(Enum):
 
 
 class Steps(IntEnum):
-    QUALITY = 35
-    SPEED = 25
+    QUALITY = 10
+    SPEED = 8
     EXTREME_SPEED = 8
     LIGHTNING = 4
     HYPER_SD = 4
